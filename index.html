@@ -9,256 +9,298 @@
     <link rel="stylesheet" href="css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
 
-  
+
 </head>
 
 <body>
-    <header class="container">
-        <nav class="navbar navbar-expand-lg bg-light">
+    <header id="Home" class="container">
+        <nav class="navbar navbar-expand-lg fixed-top bg-light">
             <div class="container">
                 <a class="navbar-brand" href="#">
                     <img src="images/logo.png" alt="logo" class="logo">
-                  </a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                  <a class="nav-link active" aria-current="page" href="#">Home</a>
-                  <a class="nav-link" href="#">Shoes</a>
-                  <a class="nav-link" href="#">Bakcpack</a>
-                  <a class="nav-link" href="#">Subscibe</a>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" aria-current="page" href="#Home">Home</a>
+                        <a class="nav-link" href="#Shoes">Shoes</a>
+                        <a class="nav-link" href="#Bakcpack">Bakcpack</a>
+                        <a class="nav-link" href="#Subscribe">Subscribe</a>
+                    </div>
                 </div>
-              </div>
             </div>
-          </nav>
-          <!-----------------------
+        </nav>
+        <!-----------------------
           Slider
           ------------------------>
-          <section class="banner mt-5">
-            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <section class="banner mt-5">
+            <div  style="margin-top:100px" id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
-                  <div class="carousel-item active bg-info p-5">
-                    <div class="row">
-                        <div class="col-lg-7 d-flex align-items-center">
-                            <div>
-                                <h2 class="banner-header">Cool Dude Headphone
-                                </h2>
-                                <p class="banner-p">This is the best headphone in the world for people who just want to waste time in front of funky world.</p>
-                                <h2 class="price">$1200</h2>
-                                <a href="#" class="btn btn-warning">Buy Now</a>
+                    <div class="carousel-item active bg-info border rounded-3 p-5">
+                        <div class="row">
+                            <div class="col-lg-7 d-flex align-items-center">
+                                <div>
+                                    <h2 class="banner-header">Cool Dude Headphone
+                                    </h2>
+                                    <p class="banner-p">This is the best headphone in the world for people who just want
+                                        to waste time in front of funky world.</p>
+                                    <h2 class="price">$1200</h2>
+                                    <a href="#" class="btn btn-warning">Buy Now</a>
+                                </div>
+                            </div>
+                            <div class="col-lg-5">
+                                <img src="images/banner-images/headphone.png" class="d-block w-100" alt="">
                             </div>
                         </div>
-                        <div class="col-lg-5">
-                            <img src="images/banner-images/headphone.png" class="d-block w-100" alt="">
-                        </div>
                     </div>
-                  </div>
-                  <div class="carousel-item bg-info p-5">
-                    <div class="row">
-                        <div class="col-lg-7 d-flex align-items-center">
-                            <div>
-                                <h2 class="banner-header">Mega LCD TV For Sports
+                    <div class="carousel-item bg-info p-5">
+                        <div class="row">
+                            <div class="col-lg-7 d-flex align-items-center">
+                                <div>
+                                    <h2 class="banner-header">Mega LCD TV For Sports
 
-                                </h2>
-                                <p class="banner-p">This is the best tv in the world for people who just want to waste time in front of tv.</p>
-                                <h2 class="price">$442</h2>
-                                <a href="#" class="btn btn-warning">Buy Now</a>
+                                    </h2>
+                                    <p class="banner-p">This is the best tv in the world for people who just want to
+                                        waste time in front of tv.</p>
+                                    <h2 class="price">$442</h2>
+                                    <a href="#" class="btn btn-warning">Buy Now</a>
+                                </div>
+                            </div>
+                            <div class="col-lg-5">
+                                <img src="images/banner-images/tv.png" class="d-block w-100" alt="">
                             </div>
                         </div>
-                        <div class="col-lg-5">
-                            <img src="images/banner-images/tv.png" class="d-block w-100" alt="">
-                        </div>
                     </div>
-                  </div>
-                  <div class="carousel-item bg-info p-5">
-                    <div class="row">
-                        <div class="col-lg-7 d-flex align-items-center">
-                            <div>
-                                <h2 class="banner-header">X-Box for your living room
+                    <div class="carousel-item bg-info p-5">
+                        <div class="row">
+                            <div class="col-lg-7 d-flex align-items-center">
+                                <div>
+                                    <h2 class="banner-header">X-Box for your living room
 
-                                </h2>
-                                <p class="banner-p">This is the best x-box in the world for people who just want to waste time in front of fake sports.</p>
-                                <h2 class="price">$600</h2>
-                                <a href="#" class="btn btn-warning">Buy Now</a>
+                                    </h2>
+                                    <p class="banner-p">This is the best x-box in the world for people who just want to
+                                        waste time in front of fake sports.</p>
+                                    <h2 class="price">$600</h2>
+                                    <a href="#" class="btn btn-warning">Buy Now</a>
+                                </div>
+                            </div>
+                            <div class="col-lg-5">
+                                <img src="images/banner-images/xbox.png" class="d-block w-100" alt="">
                             </div>
                         </div>
-                        <div class="col-lg-5">
-                            <img src="images/banner-images/xbox.png" class="d-block w-100" alt="">
-                        </div>
                     </div>
-                  </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
                 </button>
-              </div>
-          </section>
-          </header>
-          <main>
-           <!--------------------
+            </div>
+        </section>
+    </header>
+    <main>
+        <!--------------------
             Category Start
             -------------------->
-            <section class="category mt-5">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-4 col-md-6 col-sm-12 ">
+        <section class="category mt-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-sm-12 ">
                         <!--ei khane() d-flex ar align-items-center ) mane holo er je clild div er er sei div er height joto thakbe sei height er middle e jabe--->
-                           <!---- <div class="col-lg-6">
+                        <!---- <div class="col-lg-6">
                                 <h2 class="category-title">Watch</h2>
                             </div>
                             <div class="col-lg-6">
                                 <img src="/images/categories/watch.png" alt="" class="watch-img w-100">
                             </div>--->
-                            <div class="p-3 d-flex align-items-center bg-warning border rounded-3 gx-5 my-2">
-                                <h2 class="category-title">Watch</h2>
-                                <img src="/images/categories/watch.png" alt="" class="watch-img">
-                            </div>
+                        <div class="p-3 d-flex align-items-center bg-warning border rounded-3 gx-5 my-2">
+                            <h2 class="category-title">Watch</h2>
+                            <img src="/images/categories/watch.png" alt="" class="watch-img">
                         </div>
-                        <div class="col-lg-4 col-md-6 col-sm-12">
-                            <!--<div class="col-lg-6">
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <!--<div class="col-lg-6">
                                 <h2 class="category-title">Bag</h2>
                             </div>
                             <div class="col-lg-6">
                                 <img src="/images/categories/bag.png" alt="" class="watch-bag">
                             </div>-->
-                         
-                                <div class="p-3 d-flex align-items-center bg-warning border rounded-3 gx-5 my-2">
-                                    <h2 class="category-title">Bag</h2>
-                                    <img src="/images/categories/bag.png" alt="" class="watch-bag">
-                                </div>
-                          
+
+                        <div class="p-3 d-flex align-items-center bg-warning border rounded-3 gx-5 my-2">
+                            <h2 class="category-title">Bag</h2>
+                            <img src="/images/categories/bag.png" alt="" class="watch-bag">
                         </div>
-                        <div class="col-lg-4 col-md-6 col-sm-12">
-                            <!--<div class="col-lg-6">
+
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <!--<div class="col-lg-6">
                                 <h2 class="category-title">Shoes</h2>
                             </div>
                             <div class="col-lg-6">
                                 <img src="/images/categories/shoes.png" alt="" class="watch-shoes">
                             </div>-->
-                           
-                                <div class="p-3 d-flex align-items-center bg-primary border rounded-3 gx-5 my-2">
-                                    <h2 class="category-title">Shoes</h2>
-                                    <img src="/images/categories/shoes.png" alt="" class="watch-shoes">
-                                </div>
-                         
+
+                        <div class="p-3 d-flex align-items-center bg-primary border rounded-3 gx-5 my-2">
+                            <h2 class="category-title">Shoes</h2>
+                            <img src="/images/categories/shoes.png" alt="" class="watch-shoes">
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--------------------
+            Category End
+            -------------------->
+        <!---------------------
+            Shoes Section Start
+            ----------------------->
+        <section id="Shoes" class="shoes my-5">
+            <div class="container">
+                <a class="text-decoration-none text-black" href="#Home"><h1 class="shoes-title">Shoes</h1></a>
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                    <!--ei khane cart group er jonno col ta ektu different ( sm er jonno just "row-cols-1" md er jonno just "row-cols-md-2"  lg er jonno just "row-cols-lg-3")-->
+                    <div class="col">
+                        <div class="card h-100 shadow-lg border border-0">
+                            <img src="images/shoes/shoe-1.png" class="shoes-img" alt="shoes-img">
+                            <div class="card-body">
+                                <h5 class="shoes-title">Supply 350</h5>
+                                <p class="shoes-des">This is a wider card with supporting text below as a natural
+                                    lead-in to additional.</p>
+                                <h5 class="shoes-price">$120</h5>
+                            </div>
+                            <div class="m-3">
+                                <a href="#" class="btn btn-warning  shoes-btn">Buy Now >></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 shadow-lg border border-0">
+                            <img src="images/shoes/shoe-2.png" class="shoes-img" alt="shoes-img">
+                            <div class="card-body">
+                                <h5 class="shoes-title">Nike 360</h5>
+                                <p class="shoes-des">This card has supporting text below as a natural lead-in to
+                                    additional content.</p>
+                                <h5 class="shoes-price">$320</h5>
+                            </div>
+                            <div class="m-3">
+                                <a href="#" class="btn btn-warning  shoes-btn">Buy Now >></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 shadow-lg border border-0">
+                            <img src="images/shoes/shoe-3.png" class="shoes-img" alt="shoes-img">
+                            <div class="card-body">
+                                <h5 class="shoes-title">Red Airmax</h5>
+                                <p class="shoes-des">This is a wider card with supporting text below as a natural
+                                    lead-in to additional.</p>
+                                <h5 class="shoes-price">$350</h5>
+                            </div>
+                            <div class="m-3">
+                                <a href="#" class="btn btn-warning  shoes-btn">Buy Now >></a>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </section>
-             <!--------------------
-            Category End
-            -------------------->
-            <!---------------------
-            Shoes Section Start
-            ----------------------->
-            <section class="shoes my-5">
-                <div class="container">
-                    <h1 class="shoes-title">Shoes</h1>
-                    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4"><!--ei khane cart group er jonno col ta ektu different ( sm er jonno just "row-cols-1" md er jonno just "row-cols-md-2"  lg er jonno just "row-cols-lg-3")-->
-                        <div class="col">
-                          <div class="card h-100 shadow-lg border border-0">
-                            <img src="images/shoes/shoe-1.png" class="shoes-img" alt="shoes-img">
-                            <div class="card-body">
-                              <h5 class="shoes-title">Supply 350</h5>
-                              <p class="shoes-des">This is a wider card with supporting text below as a natural lead-in to additional.</p>
-                              <h5 class="shoes-price">$120</h5>
-                            </div>
-                            <div class="m-3">
-                                <a href="#" class="btn btn-warning  shoes-btn">Buy Now >></a>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="col">
-                          <div class="card h-100 shadow-lg border border-0">
-                            <img src="images/shoes/shoe-2.png" class="shoes-img" alt="shoes-img">
-                            <div class="card-body">
-                              <h5 class="shoes-title">Nike 360</h5>
-                              <p class="shoes-des">This card has supporting text below as a natural lead-in to additional content.</p>
-                              <h5 class="shoes-price">$320</h5>
-                            </div>  
-                            <div class="m-3">
-                                <a href="#" class="btn btn-warning  shoes-btn">Buy Now >></a>
-                            </div>           
-                          </div>
-                        </div>
-                        <div class="col">
-                          <div class="card h-100 shadow-lg border border-0">
-                            <img src="images/shoes/shoe-3.png" class="shoes-img" alt="shoes-img">
-                            <div class="card-body">
-                              <h5 class="shoes-title">Red Airmax</h5>
-                              <p class="shoes-des">This is a wider card with supporting text below as a natural lead-in to additional.</p>
-                              <h5 class="shoes-price">$350</h5>
-                            </div>    
-                            <div class="m-3">
-                                <a href="#" class="btn btn-warning  shoes-btn">Buy Now >></a>
-                            </div>                    
-                          </div>
-                        </div>
-                      </div>
-                </div>
-            </section>
-             <!---------------------
+            </div>
+        </section>
+        <!---------------------
             Shoes Section End
             ----------------------->
-             <!---------------------
+        <!---------------------
             Backpack Section Start
             ----------------------->
-            <section class="shoes my-5">
-                <div class="container">
-                    <h1 class="shoes-title">Backpack</h1>
-                    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4"><!--ei khane cart group er jonno col ta ektu different ( sm er jonno just "row-cols-1" md er jonno just "row-cols-md-2"  lg er jonno just "row-cols-lg-3")-->
-                        <div class="col">
-                          <div class="card h-100 shadow-lg border border-0">
+        <section id="Backpack" class="backpack my-5">
+            <div class="container">
+               <a class="text-decoration-none text-black" href="#Home"> <h1 class="shoes-title">Backpack</h1></a>
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                    <!--ei khane cart group er jonno col ta ektu different ( sm er jonno just "row-cols-1" md er jonno just "row-cols-md-2"  lg er jonno just "row-cols-lg-3")-->
+                    <div class="col">
+                        <div class="card h-100 shadow-lg border border-0">
                             <img src="images/bags/bag-1.png" class="bag-img" alt="bag-img">
                             <div class="card-body">
-                              <h5 class="bag-title">Red Bag</h5>
-                              <h5 class="bag-price">$120</h5>
-                              <p class="bag-des">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                                <h5 class="bag-title">Red Bag</h5>
+                                <h5 class="bag-price">$120</h5>
+                                <p class="bag-des">This is a wider card with supporting text below as a natural lead-in
+                                    to additional content.</p>
 
                             </div>
                             <div class="m-3">
-                                <a href="#" class="btn btn-warning  shoes-btn">Buy Now >></a> 
+                                <a href="#" class="btn btn-warning  shoes-btn">Buy Now >></a>
                             </div>
-                          </div>
                         </div>
-                        <div class="col">
-                          <div class="card h-100 shadow-lg border border-0">
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 shadow-lg border border-0">
                             <img src="images/bags/bag-2.png" class="bag-img" alt="bag-img">
                             <div class="card-body">
-                              <h5 class="bag-title">Blue Bag</h5>
-                              <h5 class="bag-price">$320</h5>
-                              <p class="bag-des">This card has supporting text below as a natural lead-in to additional content.</p>
-                            </div> 
+                                <h5 class="bag-title">Blue Bag</h5>
+                                <h5 class="bag-price">$320</h5>
+                                <p class="bag-des">This card has supporting text below as a natural lead-in to
+                                    additional content.</p>
+                            </div>
                             <div class="m-3">
-                                <a href="#" class="btn btn-warning  shoes-btn">Buy Now >></a> 
-                            </div>            
-                          </div>
+                                <a href="#" class="btn btn-warning  shoes-btn">Buy Now >></a>
+                            </div>
                         </div>
-                        <div class="col">
-                          <div class="card h-100 shadow-lg border border-0">
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 shadow-lg border border-0">
                             <img src="images/bags/bag-3.png" class="bag-img" alt="bag-img">
                             <div class="card-body">
-                              <h5 class="bag-title">Black Bag</h5>
-                              <h5 class="bag-price">$220</h5>
-                              <p class="bag-des">This is a wider card with supporting text below as a natural lead-in to additional.</p>
-                            </div> 
+                                <h5 class="bag-title">Black Bag</h5>
+                                <h5 class="bag-price">$220</h5>
+                                <p class="bag-des">This is a wider card with supporting text below as a natural lead-in
+                                    to additional.</p>
+                            </div>
                             <div class="m-3">
-                                <a href="#" class="btn btn-warning  shoes-btn">Buy Now >></a> 
-                            </div>                       
-                          </div>
+                                <a href="#" class="btn btn-warning  shoes-btn">Buy Now >></a>
+                            </div>
                         </div>
-                      </div>
+                    </div>
                 </div>
-            </section>
-          </main>
+            </div>
+        </section>
+        <!---------------------
+            Backpack Section End
+            ----------------------->
+        <!---------------------
+            Subscribe Section Start
+            ----------------------->
+        <section id="Subscribe" class="subscribe">
+            <div style="height: 350px;" class="container bg-info border rounded-3 d-flex justify-content-center align-items-center">
+                <div>
+                   <a class="text-decoration-none text-black" href="#Home"> <h2 class="subscribe-title"> LET'S STAY IN TOUCH </h2></a>
+                    <p class="subscribe-des">Get updates on sales, specials and more</p>
+                    <form>
+                        <div class="mb-3">
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp">
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+<footer class="my-5">
+    <div class="container">
+        <div class="row text-center">
+            <p class="text-muted m-0">©2020. Panda Commerce. All rights reserved. Sofia, Bulgaria.</p>
+        </div>
+    </div>
+</footer>
 
-    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
